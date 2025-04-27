@@ -1,0 +1,16 @@
+name: quantum
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.24.4
+  - scipy=1.10.1
+  - pip:
+      - pennylane==0.34.0
+      - pennylane-qchem==0.23.0
+      - jax==0.4.13
+      - jaxlib==0.4.13
+      - optax==0.1.7
+      - rustworkx>=0.12.1
